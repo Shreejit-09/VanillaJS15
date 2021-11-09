@@ -32,7 +32,7 @@
         userScore_span.innerHTML = userScore;
      }
      else {
-         console.log("It is a tie");
+         result.innerHTML = "It is a Tie";
      }
  });
 
@@ -49,7 +49,7 @@
        userScore_span.innerHTML = userScore;
     }
     else {
-        console.log("It is a tie");
+        result.innerHTML = "It is a Tie";
     }
 });
 
@@ -66,6 +66,6 @@ btns[2].addEventListener("click", function(){
        userScore_span.innerHTML = userScore;
     }
     else {
-        console.log("It is a tie");
+        result.innerHTML = "It is a Tie";
     }
 });
