@@ -1,0 +1,71 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: white ;
+   padding: 30px;
+
+}
+header > h1 {
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+body{
+    background-color: #474d49;
+}
+.score-board {
+    margin: 20px auto;
+    width: 300px;
+    border: 3px solid white;
+   color: white; 
+   padding: 15px 20px;
+   font-size: 30px;
+   text-align: center;
+   position: relative;
+}
+.badge{
+    padding: 3px 10px ;   
+    background-color: tomato;
+    font-size:20px ;
+    border-radius: 4px;
+}
+#user-label{
+    position:absolute;
+    left: -25px;
+}
+#computer-label{
+    position:absolute;
+    right: -30px;
+}
+.result {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.img-container{
+    text-align: center;
+    padding: 40px;
+}
+.image{
+    display: inline-block;
+    padding: 50px 30px;
+    border: 1px solid white;
+    border-radius: 10%;
+    margin:30px;
+    transition: all 0.4s ease-out;
+   
+}
+#action-message{
+    text-align: center;
+    color: white;
+
+}
+.image:hover{
+    cursor: pointer;
+    background-color: white;
+}
