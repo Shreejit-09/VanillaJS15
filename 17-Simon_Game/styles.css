@@ -1,0 +1,57 @@
+*{
+  background-color:#011F3F;
+  text-align: center;
+}
+.message{
+  color: white;
+  text-align: center;
+}
+.row1 , .row2{
+  display: block;
+}
+.row1 div{
+  display:inline-block;
+}
+.row2 div{
+  display:inline-block;
+}
+.green{
+  margin:20px;
+  background: green;
+  width: 150px;
+  height:150px;
+  border: 5px solid black;
+  border-radius: 30px;
+}
+.red{
+  margin:20px;
+  background:red;
+  width: 150px;
+  height:150px;
+  border: 5px solid black;
+  border-radius: 30px;
+}
+.yellow{
+  margin:20px;
+  background:yellow;
+  width: 150px;
+  height:150px;
+  border: 5px solid black;
+  border-radius: 30px;
+}
+.blue{
+  margin:20px;
+  background:blue;
+  width: 150px;
+  height:150px;
+  border: 5px solid black;
+  border-radius: 30px;
+}
+.pressed{
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
