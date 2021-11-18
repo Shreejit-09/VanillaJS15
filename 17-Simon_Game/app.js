@@ -16,6 +16,11 @@ function nextSequence(){
     $("#" + randomChosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
     if(level>1){
         $(".instruction").text("Remember the previous color sequence.");
+        $(".restartBtn").click(function(){
+            $(".restartBtn").text("Restart");
+            
+           
+        });
     }
     else{
         $(".instruction").text("");
@@ -89,6 +94,7 @@ $(document).on("keypress" , function(){
             started = false;
     }
     $(".restartBtn").click(function(){
-        startOver()
+        $(".restartBtn").text("Restart");
+        startOver();
         nextSequence();
     });
