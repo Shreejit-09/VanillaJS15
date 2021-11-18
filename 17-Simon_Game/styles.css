@@ -55,3 +55,23 @@
   background-color: red;
   opacity: 0.8;
 }
+.restartBtn{
+  margin-top: 100px;
+  height:100px;
+  width:200px;
+  background: cornsilk;
+  border-radius: 40%;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  
+}
+
+button:hover {
+  background: rgb(221, 195, 143);
+  border: 5px solid black;
+}
+.instruction{
+  color: azure;
+  font-size: 20px;
+  font-style: oblique;
+}

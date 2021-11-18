@@ -14,7 +14,12 @@ function nextSequence(){
     let randomChosenColour = buttonColours[randomNumber];
     gamePattern.push(randomChosenColour);
     $("#" + randomChosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
-    
+    if(level>1){
+        $(".instruction").text("Remember the previous color sequence.");
+    }
+    else{
+        $(".instruction").text("");
+    }
     playSound(randomChosenColour);
    
    
@@ -83,3 +88,7 @@ $(document).on("keypress" , function(){
             gamePattern = [];
             started = false;
     }
+    $(".restartBtn").click(function(){
+        startOver()
+        nextSequence();
+    });
