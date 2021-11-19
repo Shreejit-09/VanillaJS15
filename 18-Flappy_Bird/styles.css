@@ -1,0 +1,31 @@
+*{
+    text-align: center;
+    
+}
+.game-container{
+    height:800px;
+    width:900px;
+    border:2px solid black;
+    position: absolute;
+}
+.sky{
+    background-color: skyblue;
+    height:600px;
+    width:900px;
+    position:absolute;
+}
+.ground{
+    background-color: rgb(184, 60, 60);
+    height:200px;
+    width:900px;
+    top:600px;
+    position:absolute;
+}
+.bird{
+    background-color: coral;
+    height: 75px;
+    width:100px;
+    position: absolute;
+    top:200px;
+    left:400px;
+}
